@@ -1,0 +1,23 @@
+@font-face{
+    src: url(font/Alyssum-Sans.ttf);
+    font-family: Alyssum;
+}
+
+body{
+    background-color:rgb(166,223,166);
+}
+
+.title{
+    font-family:Alyssum;
+    text-align:center;
+    color: rgb(0,0,0);
+    font-size: 0.5in;
+
+}
+
+.fade-in-img{animation:fadeIn 3.5s;}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1;}
+}
